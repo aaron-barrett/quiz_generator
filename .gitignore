@@ -132,4 +132,4 @@ dmypy.json
 *.code-workspace
 
 # Quiz generated folders 
-\quizzes*
+/quizzes*
