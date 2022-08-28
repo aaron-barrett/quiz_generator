@@ -1,0 +1,78 @@
+\documentclass[dvipsnames,12pt]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+\usepackage{wrapfig}
+\usepackage{etoolbox}
+
+% Handles whether the solution or solution and rubric are in the pdf at compile time
+\newbool{sol}
+\setbool{sol}{false}
+\input{flags}
+
+% Handles solution and rubric environments
+\newcommand{\solution}[1]{\ifbool{sol}{\medskip \textcolor{NavyBlue}{Answer: \\ $$#1$$}}}
+\newcommand{\lr}[1]{\left(#1\right)}
+
+\begin{document}
+
+\begin{center}
+\bf{\Large{Example Quiz Generator}}
+\end{center}
+
+\flushright{Name: \rule{6cm}{0.4pt}}
+\flushright{Score: \rule{6cm}{0.4pt}}
+
+\flushleft
+\noindent
+Find the derivative of the following 10 functions.
+\begin{enumerate}
+
+\item
+
+\vspace{30mm}
+
+\item
+
+\vspace{30mm}
+
+\item
+
+\vspace{30mm}
+
+\item
+
+\vspace{30mm}
+
+\item
+
+\vspace{30mm}
+
+\newpage
+
+\item
+
+
+\vspace{40mm}
+
+\item
+
+\vspace{40mm}
+
+\item
+
+\vspace{40mm}
+
+\item
+
+\vspace{40mm}
+
+\item
+
+\end{enumerate}
+\end{document}
