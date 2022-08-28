@@ -3,7 +3,7 @@
 # This takes just one command line argument which determines how many randomly generated exams are created.
 # If two command line arguments are given, then this script also creates solutions. 
 # Aaron Barrett
-# Last Updated 3/30/22
+# Last Updated 8/27/22
 
 import numpy as np
 import re
